@@ -1,0 +1,46 @@
+  <!doctype html><!-- required to help Safari not get confused when injecting this fragment -->
+
+  <style type="text/css">
+    h2 {
+      margin-bottom: 10px;
+    }
+    h3 {
+      margin: 10px 0px;
+    }
+    .customizationSection {
+      margin-left: 20px;
+    }
+    .addControls {
+      margin-left: 10px;
+    }
+    .entryTable {
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .entryTable input[type="button"] {
+      height: 22px;
+    }
+    .guide {
+      font-style: italic;
+      color: grey;
+    }
+    #txtFiltersAdvanced {
+      font-size: 12px;
+      max-width: 100%;
+    }
+    ::-webkit-input-placeholder {
+      color: #345;
+    }
+  </style>
+
+  <div>
+    <h2 i18n="tabyoutubetitle"></h2>
+	<div>This prototype YouTube feature is designed to link up with a users Google account and gather a list of subscriptions.  The subscription list is then applied to the users filters to allow for the supporting of content creators and publishers.</div>
+    
+    <div>
+		<h3>YouTube V3 API - Connecting to Google account and extracting subscription list</h3>
+		 <select id="youtubeSubscriptions" name="youtubeSubscriptions" multiple="multiple" style="width:100%; height:200px;">
+		 </select>
+    
+    </div>
+  </div>
