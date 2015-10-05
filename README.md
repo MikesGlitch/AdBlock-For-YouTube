@@ -4,4 +4,5 @@ An update to the AdBlock Google chrome extension that enables users to support c
 This repository was a part of a university project and is not actively maintained.
 
 Reasons for not contributing to AdBlock repository:
+
 1. The code changes include content scripts which are not allowed currently in AdBlock.
