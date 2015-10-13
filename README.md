@@ -6,3 +6,5 @@ This repository was a part of a university project and is not actively maintaine
 Reasons for not contributing to AdBlock repository:
 
 1. The code changes include content scripts which are not allowed currently in AdBlock.
+
+This code was intended for personal use only.
